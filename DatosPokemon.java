@@ -1,4 +1,3 @@
-package org.example;
 
 import java.io.Serializable;
 
@@ -36,4 +35,6 @@ public class DatosPokemon implements Serializable {
     public String toString() {
         return "Pokémon: " + nombre + " | Tipo1: " + tipo1 + " | Tipo2: " + tipo2 + " | Habilidad: " + habilidad;
     }
+
+    
 }
