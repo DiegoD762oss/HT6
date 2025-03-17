@@ -1,4 +1,4 @@
-package org.example;
+
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -56,6 +56,10 @@ public class Main {
                     System.out.println("Opción no válida.");
             }
         }
+
+        scanner.close();
+    }
+}
 
         scanner.close();
     }
